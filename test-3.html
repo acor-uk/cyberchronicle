@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Bootstrap Layout Test 1</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+            <style>
+                /* Document Colors:
+                rgb(52, 55, 65) - Dark Slate Grey
+                rgb(0, 40, 50) - Dark Teal
+                rgb(189, 207, 214) - Light Steel Blue
+                rgb(123, 148, 158) - Steel Blue
+                Web Safeshttps://www.colorhexmap.com/669999#669999
+
+                Tints:
+                #b3cccc
+                Consider: #8cb3b3
+                https://www.colorhexmap.com/8cb3b3
+
+                Complimentaries / Tones:
+                #809966
+                #806699
+                #808080
+                #998066
+
+                #809966 → #999966 — Olive / Khaki
+                #806699 → #996699 — Orchid / Purple
+                #808080 → #999999 — Gray
+                #998066 → #999966 — Olive / Khaki
+                */
+
+        .navbar-nav .nav-item .nav-link.active{
+            color: #c36dc3;
+        }
+                
+        .nav-link{
+               font-weight: 400;
+        }
+        </style>
+    </head>
+    <body>
+        <header class="navbar navbar-expand-lg">
+            <nav class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle Navigation">&equiv;</button>
+                <section class="navbar-brand">
+                    <a href="#">
+                        <img src="graphics/1x/Asset%202cybchron.png" alt="Cybchron Logo">
+                    </a>
+                </section>
+                <div class="navbar-collapse collapse" id="navbarToggler">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Authors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Account</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>
